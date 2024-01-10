@@ -1,0 +1,122 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;;
+}
+body{
+    color:black
+}
+.header{
+    position:fixed;
+    width:100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    position: relative;
+    font-size: 25px;
+    color:#ffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a {
+    display: inline-block;
+    font-size: 25px;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+
+}
+.navbar a:hover{
+    color:#141416;
+}
+.home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #141416;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+
+
+
+}
+.home-content{
+    max-width: 600px;
+}
+.home-content h3{
+    font-size: 20px;
+    font-weight: 700;
+    color:#ffff;
+    opacity: 80%;
+}
+.home-content h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin:  -3px 0;
+    opacity: 95%;
+    color:#ffff;
+
+}
+.home-content p{
+    font-size: 20px;
+   
+    
+}
+.btn-box{
+    display: inline-block;
+    padding: 12px 28px;
+    background:black;
+    border-radius: 40px;
+    font-size: 16px;
+    color:#ffff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    
+
+}
+.btn-box:hover{
+    box-shadow: 0 0 5px #ffff,
+    0 0 25px #ffff, 0 0 50px #ffff,0 0 100px #ffff, 0 0 200px #ffff;
+}
+#center{
+ 
+    width: 1800px;
+    height: 800px;
+    background-color:#262628;
+    border-radius: 20px;
+    position:fixed;
+    left: 50%;
+    top: 50%; 
+    margin-left: -50px;
+    margin-top: -50px;
+    transform: translate(-50%, -50%);
+    margin-top:60px;
+     
+    }
+
+.inner-div{
+    width: 600px;
+    height: 400px;
+    background-color:#141416;
+    margin-left: 550px;
+    margin-top:280px;
+    transform: translate(-50%, -50%);    
+    border-top-left-radius:  20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
